@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Internship Project</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+	<link href="./favicon.ico" rel="icon">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<script defer src="js/main.js"></script>
+	<script defer src="js/slider.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="wrap">
+			<div class="header__container">
+				<a href="index.html" class="header__logo"><img class="header__logo-img" src="images/logo.png" alt="Logo Front End Rules"></a>
+				<nav class="nav">
+					<ul class="nav__list">
+						<li class="nav__item nav__item--droplist"><span class="nav__droplink"><a class="nav__link" href="javascript:;">About us</a><button type="button" class="icon-arrow-right icon-arrow-right--btn" aria-label="Toggle About Us navigation"></button></span>
+							<ul class="nav__submenu">
+								<li class="nav__submenu-item"><a class="nav__submenu-link" href="javascript:;">Our company</a></li>
+								<li class="nav__submenu-item"><a class="nav__submenu-link" href="javascript:;">Our people</a></li>
+								<li class="nav__submenu-item"><a class="nav__submenu-link" href="javascript:;">Policy & Regulation</a></li>
+								<li class="nav__submenu-item"><a class="nav__submenu-link" href="javascript:;">Our sponsorship</a></li>
+								<li class="nav__submenu-item"><a class="nav__submenu-link" href="javascript:;">Our history</a></li>
+							</ul>
+						</li>
+						<li class="nav__item"><a class="nav__link" href="javascript:;">Investors</a></li>
+						<li class="nav__item nav__item--droplist"><span class="nav__droplink"><a class="nav__link" href="javascript:;">News & Media</a><button type="button" class="icon-arrow-right icon-arrow-right--btn" aria-label="Toggle News and Media navigation"></button></span>
+							<ul class="nav__submenu">
+								<li class="nav__submenu-item"><a href="javascript:;" class="nav__submenu-link">News releases</a></li>
+								<li class="nav__submenu-item"><a href="javascript:;" class="nav__submenu-link">Blog</a></li>
+								<li class="nav__submenu-item"><a href="javascript:;" class="nav__submenu-link">Image library</a></li>
+							</ul>
+						</li>
+						<li class="nav__item"><a class="nav__link" href="javascript:;">Contact us</a></li>
+					</ul>
+				</nav>
+				<div class="header__buttons">
+					<button class="header__open-search" type="button" aria-label="Open search form"><img class="search-form__openBtn" src="images/searchIcon.svg" alt="search icon"></button>
+					<button type="button" class="header__hamburger" aria-label="Toggle header menu"><span class="header__line"></span></button>
+				</div>
+				<div class="search">
+					<button class="header__close-search" type="button" aria-label="Close search form"></button>
+					<div class="wrap wrap--flex">
+						<form action="#" method="get" class="header__search">
+							<div class="">
+								<input class="search__input" type="text" placeholder="Search" name="search">
+								<button class="search__btn" type="submit" aria-label="Submit search"><img class="search-form__search-icon" src="images/searchIcon.svg" alt="search icon"></button>
+							</div>
+						</form>		
+					</div>
+				</div>				
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="hero has-cover" style="background-image: url('images/heroBackground.png');">
+			<div class="wrap">
+				<div class="hero__container">
+					<h1 class="hero__title">
+						Donec <span class="hero__title-accent">condimentum</span> viverra ante
+					</h1>
+					<p class="hero__text">
+						Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="text-image">
+			<div class="wrap">
+				<div class="text-image__container">
+					<div class="text-image__content">
+						<h2 class="text-image__title">Suspendisse vitae purus quis dui</h2>
+						<p class="text-image__text">Nam a augue eu ipsum accumsan pretium. Proin ut dolor id arcu dignissim dictum. Aenean laoreet, felis vel dapibus interdum, turpis nunc congue tellus, sed ultricies lorem nulla eget diam.</p>
+						<a href="javascript:;" class="btn btn--text-img">Fusce blandit</a>
+					</div>
+					<img class="text-image__img" src="images/takingSelfie.png" alt="traveling couple taking a selfie">
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="wrap">
+				<div class="swiper">
+					<h2 class="slider__heading">Sed ultricies lorem</h2>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/intersection.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Maecenas</h3>
+							<p class="slider__title">Proin ullamcorper fermentum quam</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/cityAndRiver.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Feugiat</h3>
+							<p class="slider__title">Quisque cursus ornare mi malesuada porttitor</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/intersection.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Maecenas</h3>
+							<p class="slider__title">Proin ullamcorper fermentum quam</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/cityAndRiver.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Feugiat</h3>
+							<p class="slider__title">Quisque cursus ornare mi malesuada porttitor</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+					</div>
+				</div>
+				<div class="slider__btn-container">
+					<button type="button" class="icon-prevButton slider__prevBtn"></button>
+					<button type="button" class="icon-nextButton  slider__nextBtn"></button>
+				</div>
+			</div>			
+		</section>
+		<section class="tabs">
+			<div class="wrap">
+				<h2 class="tabs__title">Turpis eu ultrices porttitor</h2>
+				<div class="tabs__container">
+					<div class="tabs__mobile">
+						<span class="tabs__mobile-indicator">2021</span>
+						<button type="button" class="tabs__archiveBtn" data-target-dropdown="#dropdown" aria-label="Open to chose from a list of tabs">Archive</button>
+					</div>
+					<div class="tabs__dropdown" id="dropdown">
+						<button type="button" class="tabs__btn active" data-target="#first" aria-label="Select 2021 content">2021</button>
+						<button type="button" class="tabs__btn" data-target="#second" aria-label="Select 2020 content">2020</button>
+						<button type="button" class="tabs__btn" data-target="#trhird" aria-label="Select 2019 content">2019</button>
+						<button type="button" class="tabs__btn" data-target="#fourth" aria-label="Select 2018 content">2018</button>
+					</div>
+				</div> 
+				<div class="tabs__content active" id="first">
+					<p class="tabs__text">Proin pretium vehicula sagittis. Donec eget orci eget nunc vulputate pharetra semper feugiat orci. Phasellus pharetra dui erat, ut eleifend nibh sagittis ac. Nulla molestie, nunc vel faucibus dictum, ligula tellus rutrum dui, nec mattis odio massa eu nunc. Morbi in nulla sed leo maximus scelerisque. Mauris libero odio, feugiat vel risus sed, pretium placerat turpis. Sed efficitur id sem at lacinia. Phasellus semper fringilla ullamcorper. Fusce id porta enim, sed gravida urna.</p>
+					<p class="tabs__text">Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.</p>
+				</div>
+				<div class="tabs__content" id="second">
+					<p class="tabs__text">2020 Content</p>
+					<p class="tabs__text">Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.</p>
+				</div>
+				<div class="tabs__content" id="trhird">
+					<p class="tabs__text">2019 Content</p>
+					<p class="tabs__text">Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.</p>
+				</div>
+				<div class="tabs__content" id="fourth">
+					<p class="tabs__text">2018 content.</p>
+					<p class="tabs__text">Nullam molestie elit vel massa accumsan lacinia. Aliquam faucibus sapien ante, eu cursus risus rutrum sit amet. Pellentesque at vehicula lacus.</p>
+				</div>
+			</div>
+		</section>
+		<section class="text-image">
+			<div class="wrap">
+				<div class="text-image__container text-image__container--reverse">
+					<div class="text-image__content">
+						<h2 class="text-image__title">Proin pretium vehicula</h2>
+						<p class="text-image__text">Etiam vulputate ipsum massa. Pellentesque porttitor, mi varius sollicitudin varius, lacus ante ullamcorper justo, in semper ante velit ac ipsum.</p>
+						<a href="javascript:;" class="btn btn--text-img">Fusce blandit</a>
+					</div>				
+					<img class="text-image__img" src="images/books.png" alt="Comic books on a shelf">
+				</div>
+			</div>
+		</section>
+		<section class="slider">
+			<div class="wrap">
+				<div class="swiper">
+					<h2 class="slider__heading">Elit vel massa accumsan lacinia</h2>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/pastries.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Phasellus</h3>
+							<p class="slider__title">Aliquam egestas finibus massa vitae sollicitudin</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/cofeeSnack.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Ullamcorper</h3>
+							<p class="slider__title">Etiam vulputate ipsum massa</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/pastries.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Phasellus</h3>
+							<p class="slider__title">Aliquam egestas finibus massa vitae sollicitudin</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+						<div class="swiper-slide">
+							<img class="slider__img" src="images/cofeeSnack.png" alt="Busy city intersection and night">
+							<h3 class="slider__subtitle">Ullamcorper</h3>
+							<p class="slider__title">Etiam vulputate ipsum massa</p>
+							<span class="slider__date">05 November 2021</span>
+						</div>
+					</div>
+				</div>
+				<div class="slider__btn-container">
+					<button type="button" class="icon-prevButton slider__prevBtn"></button>
+					<button type="button" class="icon-nextButton  slider__nextBtn"></button>
+				</div>
+			</div>			
+		</section>
+		<section class="acordion">
+			<div class="wrap">
+				<h3 class="acordion__title">Mauris libero odio</h3>
+				<div class="acordion__item">
+					<div class="acordion__button">
+						<h3 class="acordion__heading">Amet estibulum lobortis sed senectus</h3>
+					</div>
+					<div class="acordion__content">
+						<p class="acordion__text">
+							Egestas a mi vestibulum ullamcorper facilisi eget nam phasellus torquent gravida vestibulum ultrices elementum viverra lobortis ultricies parturient a <b class="acordion__text--accent">vestibulum facilisi dictumst</b> mi dis scelerisque risus mattis. Nam eleifend torquent penatibus vitae morbi ad condimentum a ullamcorper aliquam donec bibendum placerat suspendisse consectetur parturient at. Ut elementum vitae auctor neque scelerisque nullam porta urna penatibus tempor montes nullam pharetra tempus morbi non ullamcorper tempor libero a a erat. Lacus ullamcorper vulputate ante nisi in ad dictumst fermentum quam a odio nec scelerisque a adipiscing suspendisse donec ultricies condimentum <b class="acordion__text--accent">blandit tempor</b> in eros vestibulum vestibulum. Blandit a a interdum euismod vestibulum at consectetur ac vulputate ullamcorper scelerisque mi hendrerit a est scelerisque vestibulum condimentum. 
+					    </p>
+					    <p class="acordion__text">Eros adipiscing vestibulum parturient cum nibh justo vehicula sodales a nostra condimentum adipiscing a in vulputate 		suspendisse parturient ac a adipiscing scelerisque suspendisse cum enim sem. A eget parturient posuere taciti adipiscing sed a vestibulum augue suspendisse ac dui primis suscipit ullamcorper ullamcorper nunc sit augue adipiscing facilisis pretium senectus condimentum bibendum.							
+						</p>
+					</div>
+				</div>
+				<div class="acordion__item">
+					<div class="acordion__button">
+						<h3 class="acordion__heading">Libero risus accumsan commodo scelerisque</h3>
+					</div>
+					<div class="acordion__content">
+						<p class="acordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem vitae veritatis maxime nulla repudiandae dolorum in accusantium voluptas eos molestias quas non obcaecati blanditiis ducimus, eveniet sit fugit quidem, consectetur impedit placeat. Officiis quis mollitia dolorum aspernatur voluptatem eaque! Illo dolorem suscipit odit modi quas ad iure minus tempore et eos quisquam deserunt doloremque reiciendis incidunt libero iste eveniet eum laborum explicabo saepe illum, quod repellat! Error magnam provident veritatis in libero rem quia, illo delectus. Non consectetur ducimus esse expedita mollitia iure nostrum quis. Aperiam odio possimus nihil!
+						</p>
+						<p class="acordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident nesciunt illo ab alias quisquam modi cumque? Exercitationem iusto velit, dolorum odit ea odio doloribus. Delectus quos, unde sint animi sapiente debitis dolorum provident, maxime sunt consequatur repudiandae quae non.</p>
+					</div>
+				</div>
+				<div class="acordion__item">
+					<div class="acordion__button">
+						<h3 class="acordion__heading">Condimentum phasellus cras diam consectetur</h3>
+					</div>
+					<div class="acordion__content">
+						<p class="acordion__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae consequuntur explicabo corrupti est eum ipsa, tempore dolorum maxime saepe! Voluptatum!
+						</p>
+						<p class="acordion__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, provident nesciunt illo ab alias quisquam modi cumque? Exercitationem iusto velit, dolorum odit ea odio doloribus. Delectus quos, unde sint animi sapiente debitis dolorum provident, maxime sunt consequatur repudiandae quae non.</p>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<section class="contact">
+			<div class="wrap">
+				<div class="contact__container">
+					<h2 class="contact__title">Mauris libero odio</h2>
+					<form action="#" class="contact__form" method="POST">
+						<div class="contact__row">
+							<div class="contact__pair">
+								<label class="contact__label" for="name">First name*:</label>
+								<input class="contact__input" type="text" name="name" id="name" placeholder="First name" required>
+							</div>
+							<div class="contact__pair ">
+								<label class="contact__label" for="lastName">Last name*:</label>
+								<input class="contact__input" type="text" name="last name" id="lastName" placeholder="Last name" required>
+							</div>
+						</div>
+						<div class="contact__row">
+							<div class="contact__pair">
+								<label class="contact__label" for="company">Company name:</label>
+								<input class="contact__input" type="text" name="company" id="company" placeholder="Company name">
+							</div>
+							<div class="contact__pair">
+								<label class="contact__label" for="title">Title:</label>
+								<input class="contact__input" type="text" name="title" id="title" placeholder="Title">
+							</div>
+						</div>
+						<div class="contact__row">
+							<div class="contact__pair">
+								<label for="email" class="contact__label">Email address*:</label>
+								<input type="email" class="contact__input" name="email" id="email" placeholder="Email address" required>
+							</div>
+							<div class="contact__pair">
+								<label for="phone" class="contact__label">Phone:</label>
+								<input type="number" class="contact__input" name="phone" id="phone" placeholder="Phone">
+							</div>
+						</div>
+						<div class="contact__pair">
+							<label for="textmessage" class="contact__label">Your message*:</label>
+							<textarea class="contact__message" name="textmessage" id="textmessage"  placeholder="Your message..." required></textarea>
+						</div>
+						<div class="contact__check-container">
+							<div class="contact__check-row">
+								<input type="radio" name="options" id="option1" class="contact__radioBtn" value="Pellentesque at vehicula lacus" checked>
+								<label for="option1" class="contact__label">Pellentesque at vehicula lacus</label>
+							</div>
+							<div class="contact__check-row">
+								<input type="radio" name="options" id="option2" class="contact__radioBtn" value="Pellentesque at vehicula lacus">
+								<label for="option2" class="contact__label">Pellentesque at vehicula lacus</label>
+							</div>
+						</div>
+						<span class="contact__fusnote">*Required fields.</span>
+						<button class="btn btn-submit" type="submit">Submit</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="wrap">
+			<div class="footer__container">
+				<ul class="footer__items">
+					<li class="footer__item"><a href="javascript:;" class="footer__link">Sitemap</a></li>
+					<li class="footer__item"><a href="javascript:;" class="footer__link">Accessibility</a></li>
+					<li class="footer__item"><a href="javascript:;" class="footer__link">Privacy policy</a></li>
+				</ul>
+				<span class="footer__copyright">© Vega IT 2022</span>
+			</div>
+		</div>		
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</body>
+</html>
